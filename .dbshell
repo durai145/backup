@@ -1,0 +1,37 @@
+show dbsl
+show dbs;
+use test;
+show collections;
+db.gpasso_mail001mts.find();
+use test
+db.gpasso_page005mts.find();
+db.gpasso_page005mts.find().pretty();
+db. ;
+db.gpasso_ssid003mts.find();
+db.gpasso_mail001mts.find();
+db.gpasso_mail001mts.find().pretty();
+show dbs;
+use test
+ls -lrt
+show collections;
+db.gpasso_ssid003mts.find();
+show dbs;
+use test;
+show collections;
+db.gpasso_mail001mts.find().pretty();
+db.gpasso_mail001mts.remove({});
+db.gpasso_mail001mts.find().pretty();
+use test;
+db.gpasso_mail001mts.find();
+show collections;
+db.gpasso_mail001mts.find({}).pretty();
+;
+db.gpasso_mail001mts.find({});
+db.gpasso_mail001mts.find();
+db.gpasso_mail001mts.find({}).pretty();
+db.gpasso_mail001mts.find({}).countt();
+db.gpasso_mail001mts.find({}).count\();
+db.gpasso_mail001mts.find({}).count();
+db.gpasso_mail001mts.find({}).count().sum();;
+db.gpasso_mail001mts.find({}).count();
+db.gpasso_mail001mts.find();
